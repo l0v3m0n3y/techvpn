@@ -7,8 +7,8 @@ import techvpn
 let client = Techvpn()
 
 do {
-    let proxy_list = try await client.get_proxy_list()
-    print(proxy_list)
+    let proxyList = try await client.getProxyList()
+    print(proxyList)
 } catch {
     print("Error: \(error)")
 }
